@@ -141,18 +141,18 @@ const Footer = () => {
 
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex flex-wrap justify-center md:justify-start gap-6 text-sm text-gray-400 mb-6 md:mb-0">
-              <a className="group relative hover:text-white transition-colors duration-300">
+              <Link to="/privacy" className="group relative hover:text-white transition-colors duration-300">
                 <span className="relative z-10">Privacy Policy</span>
                 <div className="absolute -inset-2 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </a>
-              <a className="group relative hover:text-white transition-colors duration-300">
+              </Link>
+              <Link to="/terms" className="group relative hover:text-white transition-colors duration-300">
                 <span className="relative z-10">Terms of Service</span>
                 <div className="absolute -inset-2 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </a>
-              <a className="group relative hover:text-white transition-colors duration-300">
+              </Link>
+              <Link to="/cookies" className="group relative hover:text-white transition-colors duration-300">
                 <span className="relative z-10">Cookie Policy</span>
                 <div className="absolute -inset-2 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </a>
+              </Link>
               <Link
                 to="/contact"
                 className="group relative hover:text-white transition-colors duration-300"
