@@ -71,7 +71,7 @@ style: fix spacing on mobile job list
 ```
 
 - Use present tense, lowercase, no period at the end
-- Keep the subject line under 72 characters
+- Keep the subject line under 80 characters
 - Add a body for non-obvious changes
 
 ### Pull Requests
