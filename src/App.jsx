@@ -21,6 +21,9 @@ import MyJobs from "./pages/MyJobs";
 import JobApplicants from "./pages/JobApplicants";
 import Profile from "./pages/Profile";
 import Contact from "./pages/Contact";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
+import Cookies from "./pages/Cookies";
 import Dashboard from "./pages/admin/Dashboard";
 import CompanyManagement from "./pages/admin/CompanyManagement";
 import EmployerManagement from "./pages/admin/EmployerManagement";
@@ -135,6 +138,11 @@ function App() {
 
                   {/* Contact Route */}
                   <Route path="contact" element={<Contact />} />
+
+                  {/* Legal Routes */}
+                  <Route path="privacy" element={<Privacy />} />
+                  <Route path="terms" element={<Terms />} />
+                  <Route path="cookies" element={<Cookies />} />
                 </Route>
               </Routes>
             </Router>
