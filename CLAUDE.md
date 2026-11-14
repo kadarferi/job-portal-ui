@@ -53,7 +53,7 @@ refactor/simplify-auth-context         # Code refactoring
 style/mobile-job-card-spacing          # Visual/style changes
 ```
 
-- Branch off `main` for all new work
+- Branch off `master` for all new work
 - Keep branches short-lived; open a PR when ready
 - Delete branches after merging
 
@@ -78,7 +78,7 @@ style: fix spacing on mobile job list
 
 - PR title should match the commit message format
 - Include a summary and test plan in the PR description
-- Target `main` as the base branch
+- Target `master` as the base branch
 
 ## Coding Standards
 
